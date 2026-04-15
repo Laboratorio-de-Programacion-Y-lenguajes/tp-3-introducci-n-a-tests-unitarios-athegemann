@@ -28,3 +28,7 @@ def test_add_suma_positivos():
 # ])
 # def test_add_parametrizado(a, b, expected):
 #     assert add(a, b) == expected
+
+def test_add_suma_negativos():
+    """Ejemplo: -3 + -5 debe dar -8."""
+    assert add(-3, -5) == -8
