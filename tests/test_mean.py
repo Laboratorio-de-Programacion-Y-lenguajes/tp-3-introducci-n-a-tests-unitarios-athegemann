@@ -29,3 +29,6 @@ def test_mean_lista_un_elemento():
 
 def test_mean_lista_negativa():
     assert mean([-5,-3,-1]) == -3
+
+def test_mean_lista_decimal():
+    assert mean([3.8,2.9,9.3,5.6]) == 5.4
