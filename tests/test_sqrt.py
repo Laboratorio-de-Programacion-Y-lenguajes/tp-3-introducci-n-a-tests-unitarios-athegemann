@@ -26,3 +26,7 @@ def test_sqrt_cuadrado_perfecto():
 
 def test_sqrt_cero():
     assert sqrt(0) == 0.0
+
+
+def test_sqrt_decimal():
+    assert sqrt(2) == pytest.approx(1.41421356237)
