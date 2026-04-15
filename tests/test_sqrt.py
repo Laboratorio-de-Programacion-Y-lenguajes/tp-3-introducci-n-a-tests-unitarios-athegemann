@@ -30,3 +30,8 @@ def test_sqrt_cero():
 
 def test_sqrt_decimal():
     assert sqrt(2) == pytest.approx(1.41421356237)
+
+
+def test_sqrt_negativo():
+    with pytest.raises(ValueError):
+        sqrt(-4)
