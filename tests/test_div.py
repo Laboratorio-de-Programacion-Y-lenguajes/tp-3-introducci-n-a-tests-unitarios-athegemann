@@ -22,3 +22,7 @@ def test_div_normal():
 # def test_div_por_cero():
 #     with pytest.raises(ZeroDivisionError):
 #         div(10, 0)
+
+def test_div_decimal():
+    """Ejemplo: 6 / 4 debe dar 1.5."""
+    assert div(6, 4) == 1.5
