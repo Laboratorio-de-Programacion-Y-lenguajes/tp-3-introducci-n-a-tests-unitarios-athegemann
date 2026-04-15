@@ -36,3 +36,7 @@ def test_add_suma_negativos():
 def test_add_suma_positivo_y_negativo():
     """Ejemplo: 9 + -5 debe dar 4"""
     assert add(9,-5) == 4
+
+def test_add_suma_cero():
+    """Ejemplo: 5 + 0 debe dar 5"""
+    assert add(5,0) == 5
