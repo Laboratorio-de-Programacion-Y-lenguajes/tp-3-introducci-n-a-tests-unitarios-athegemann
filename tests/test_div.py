@@ -30,3 +30,8 @@ def test_div_decimal():
 def test_div_negativos():
     """Ejemplo: 6 / -3 debe dar -2."""
     assert div(6, -3) == -2
+
+def test_div_cero():
+    """Ejemplo: 5 / 0 debe dar error"""
+    with pytest.raises(ZeroDivisionError):
+        div(5, 0)
