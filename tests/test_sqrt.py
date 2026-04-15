@@ -22,3 +22,7 @@ def test_sqrt_cuadrado_perfecto():
 # def test_sqrt_negativo():
 #     with pytest.raises(ValueError):
 #         sqrt(-4)
+
+
+def test_sqrt_cero():
+    assert sqrt(0) == 0.0
