@@ -23,3 +23,6 @@ def test_mean_lista_simple():
 # def test_mean_lista_vacia():
 #     with pytest.raises(ValueError):
 #         mean([])
+
+def test_mean_lista_un_elemento():
+    assert mean([3]) == 3
