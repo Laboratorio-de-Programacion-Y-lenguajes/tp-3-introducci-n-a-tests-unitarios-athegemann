@@ -40,3 +40,7 @@ def test_add_suma_positivo_y_negativo():
 def test_add_suma_cero():
     """Ejemplo: 5 + 0 debe dar 5"""
     assert add(5,0) == 5
+
+def test_add_suma_flotantes():
+    """Ejemplo: 3.5 + 2.8 debe dar 6.3"""
+    assert add(3.5,2.8) == 6.3
